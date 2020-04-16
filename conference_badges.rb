@@ -21,4 +21,4 @@ def printer(name)
     puts badges
   end
   
-  
+  assign_rooms(name).each do |
