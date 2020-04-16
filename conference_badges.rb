@@ -11,7 +11,7 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(name)
-  name.each_with_index.collect |presenter, classify|
+  name.each_with_index. |presenter, classify|
   "Hello, #{presenter}! You'll be assigned to room #{classify+1}!"
   end
 end
